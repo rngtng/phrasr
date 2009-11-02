@@ -1,0 +1,1313 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+s0:
+  text: 'Morgen, morgen, nur nicht heute'
+  language: de
+  type: LeftSentence
+  
+s0r:
+  text: sagen alle faulen Leute.
+  language: de
+  type: RightSentence
+
+s1:
+  text: Adel
+  language: de
+  type: LeftSentence
+
+s1r:
+  text: verpflichtet.
+  language: de
+  type: RightSentence
+
+s2:
+  text: Aller guten Dinge
+  language: de
+  type: LeftSentence
+
+s2r:
+  text: sind drei.
+  language: de
+  type: RightSentence
+
+s3:
+  text: Alles gute
+  language: de
+  type: LeftSentence
+
+s3r:
+  text: kommt von oben.
+  language: de
+  type: RightSentence  
+
+s4:
+  text: Alte Liebe
+  language: de
+  type: LeftSentence
+
+s4r:
+  text: rostet nicht.
+  language: de
+  type: RightSentence
+
+s5:
+  text: Alter
+  language: de
+  type: LeftSentence
+
+s5r:
+  text: schützt vor Torheit nicht.
+  language: de
+  type: RightSentence
+
+s6:
+  text: Am Abend
+  language: de
+  type: LeftSentence
+
+s6r:
+  text: wird der Faule fleißig.
+  language: de
+  type: RightSentence
+
+s7:
+  text: Andere Mütter
+  language: de
+  type: LeftSentence
+
+s7r:
+  language: de
+  type: LeftSentence
+
+s7r:
+  text: haben auch schöne Töchter.
+  language: de
+  type: RightSentence
+
+s8:
+  text: Auch Rom
+  language: de
+  type: LeftSentence
+
+s8r:
+  language: de
+  type: LeftSentence
+
+s8r:
+  text: wurde nicht an einem Tag gebaut.
+  language: de
+  type: RightSentence
+
+s9:
+  text: Auch ein blindes Huhn
+  language: de
+  type: LeftSentence
+
+s9r:
+  language: de
+  type: LeftSentence
+
+s9r:
+  text: findet einmal ein Korn.
+  language: de
+  type: RightSentence
+
+s10:
+  text: Auf alten Pferden
+  language: de
+  type: LeftSentence
+
+s10r:
+  text: lernt man Reiten.
+  language: de
+  type: RightSentence
+
+s11:
+  text: Das letzte Hemd
+  language: de
+  type: LeftSentence
+
+s11r:
+  text: hat keine Taschen.
+  language: de
+  type: RightSentence
+
+s12:
+  text: Den Letzten
+  language: de
+  type: LeftSentence
+
+s12r:
+  text: beißen die Hunde.
+  language: de
+  type: RightSentence
+
+s13:
+  text: Der Apfel
+  language: de
+  type: LeftSentence
+
+s13r:
+  text: fällt nicht weit vom Stamm.
+  language: de
+  type: RightSentence
+
+s14:
+  text: Der Appetit
+  language: de
+  type: LeftSentence
+
+s14r:
+  text: kommt beim Essen.
+  language: de
+  type: RightSentence
+
+s15:
+  text: Der Esel
+  language: de
+  type: LeftSentence
+
+s15r:
+  text: nennt sich immer zuerst.
+  language: de
+  type: RightSentence
+
+s16:
+  text: Der Fisch
+  language: de
+  type: LeftSentence
+
+s16r:
+  text: stinkt vom Kopf her.
+  language: de
+  type: RightSentence
+
+s17:
+  text: Der Glauben
+  language: de
+  type: LeftSentence
+
+s17r:
+  text: kann Berge versetzen.
+  language: de
+  type: RightSentence
+
+s18:
+  text: Der Klügere
+  language: de
+  type: LeftSentence
+
+s18r:
+  text: gibt nach.
+  language: de
+  type: RightSentence
+
+s19:
+  text: Der Krug geht zum Brunnen
+  language: de
+  type: LeftSentence
+
+s19r:
+  text: bis er bricht.
+  language: de
+  type: RightSentence
+
+s20:
+  text: Der Mensch
+  language: de
+  type: LeftSentence
+
+s20r:
+  text: lebt nicht vom Brot allein.
+  language: de
+  type: RightSentence
+
+s21:
+  text: Der Spatz in der Hand
+  language: de
+  type: LeftSentence
+
+s21r:
+  text: ist besser als die Taube auf dem Dach.
+  language: de
+  type: RightSentence
+
+s22:
+  text: Der dümmste Bauer
+  language: de
+  type: LeftSentence
+
+s22r:
+  text: erntet die dicksten Kartoffeln.
+  language: de
+  type: RightSentence
+
+s23:
+  text: Der frühe Vogel
+  language: de
+  type: LeftSentence
+
+s23r:
+  text: fängt den Wurm.
+  language: de
+  type: RightSentence
+
+s24:
+  text: Des einen Leid
+  language: de
+  type: LeftSentence
+
+s24r:
+  text: ist des anderen Freud.
+  language: de
+  type: RightSentence
+
+s25:
+  text: Die Axt im Haus
+  language: de
+  type: LeftSentence
+
+s25r:
+  text: ersetzt den Zimmermann.
+  language: de
+  type: RightSentence
+
+s26:
+  text: Die Hoffnung
+  language: de
+  type: LeftSentence
+
+s26r:
+  text: stirbt zuletzt.
+  language: de
+  type: RightSentence
+
+s27:
+  text: Die Letzten
+  language: de
+  type: LeftSentence
+
+s27r:
+  text: werden die Ersten sein.
+  language: de
+  type: RightSentence
+
+s28:
+  text: Die Zeit
+  language: de
+  type: LeftSentence
+
+s28r:
+  text: heilt alle Wunden.
+  language: de
+  type: RightSentence
+
+s29:
+  text: Doppelt genäht
+  language: de
+  type: LeftSentence
+
+s29r:
+  text: hält besser.
+  language: de
+  type: RightSentence
+
+s30:
+  text: Dummheit
+  language: de
+  type: LeftSentence
+
+s30r:
+  text: schützt vor Strafe nicht.
+  language: de
+  type: RightSentence
+
+s31:
+  text: Dummheit
+  language: de
+  type: LeftSentence
+
+s31r:
+  text: tut weh.
+  language: de
+  type: RightSentence
+
+s32:
+  text: Ehrlich
+  language: de
+  type: LeftSentence
+
+s32r:
+  text: währt am längsten.
+  language: de
+  type: RightSentence
+
+s33:
+  text: Ein Unglück
+  language: de
+  type: LeftSentence
+
+s33r:
+  text: kommt selten allein.
+  language: de
+  type: RightSentence
+
+s34:
+  text: Ein voller Bauch
+  language: de
+  type: LeftSentence
+
+s34r:
+  text: studiert nicht gern.
+  language: de
+  type: RightSentence
+
+s35:
+  text: Eine Hand
+  language: de
+  type: LeftSentence
+
+s35r:
+  text: wäscht die andere.
+  language: de
+  type: RightSentence
+
+s36:
+  text: Eine Schwalbe
+  language: de
+  type: LeftSentence
+
+s36r:
+  text: macht noch keinen Sommer.
+  language: de
+  type: RightSentence
+
+s37:
+  text: Gegensätze
+  language: de
+  type: LeftSentence
+
+s37r:
+  text: ziehen sich an.
+  language: de
+  type: RightSentence
+
+s38:
+  text: Geld allein
+  language: de
+  type: LeftSentence
+
+s38r:
+  text: macht nicht glücklich.
+  language: de
+  type: RightSentence
+
+s39:
+  text: Geld
+  language: de
+  type: LeftSentence
+
+s39r:
+  text: regiert die Welt.
+  language: de
+  type: RightSentence
+
+s40:
+  text: Geld
+  language: de
+  type: LeftSentence
+
+s40r:
+  text: stinkt nicht.
+  language: de
+  type: RightSentence
+
+s41:
+  text: Gelegenheit
+  language: de
+  type: LeftSentence
+
+s41r:
+  text: macht Diebe.
+  language: de
+  type: RightSentence
+
+s42:
+  text: Geteiltes Leid
+  language: de
+  type: LeftSentence
+
+s42r:
+  text: ist halbes Leid.
+  language: de
+  type: RightSentence
+
+s43:
+  text: Gleich und Gleich
+  language: de
+  type: LeftSentence
+
+s43r:
+  text: gesellt sich gern.
+  language: de
+  type: RightSentence
+
+s44:
+  text: Gut Ding
+  language: de
+  type: LeftSentence
+
+s44r:
+  text: will Weile haben.
+  language: de
+  type: RightSentence
+
+s45:
+  text: Hochmut
+  language: de
+  type: LeftSentence
+
+s45r:
+  text: kommt vor dem Fall.
+  language: de
+  type: RightSentence
+
+s46:
+  text: Hunde, die bellen,
+  language: de
+  type: LeftSentence
+
+s46r:
+  text: beißen nicht.
+  language: de
+  type: RightSentence
+
+s47:
+  text: Hunger
+  language: de
+  type: LeftSentence
+
+s47r:
+  text: ist der beste Koch.
+  language: de
+  type: RightSentence
+
+s48:
+  text: Im Becher
+  language: de
+  type: LeftSentence
+
+s48r:
+  text: ersaufen mehr Leute als im Bach.
+  language: de
+  type: RightSentence
+
+s49:
+  text: Im Wein
+  language: de
+  type: LeftSentence
+
+s49r:
+  text: liegt die Wahrheit.
+  language: de
+  type: RightSentence
+
+s50:
+  text: In der Kürze
+  language: de
+  type: LeftSentence
+
+s50r:
+  text: liegt die Würze.
+  language: de
+  type: RightSentence
+
+s51:
+  text: In der Nacht
+  language: de
+  type: LeftSentence
+
+s51r:
+  text: sind alle Katzen grau.
+  language: de
+  type: RightSentence
+
+s52:
+  text: In der Not
+  language: de
+  type: LeftSentence
+
+s52r:
+  text: frisst der Teufel Fliegen.
+  language: de
+  type: RightSentence
+
+s53:
+  text: In der Ruhe
+  language: de
+  type: LeftSentence
+
+s53r:
+  text: liegt die Kraft.
+  language: de
+  type: RightSentence
+
+s54:
+  text: Ist die Katze aus dem Haus,
+  language: de
+  type: LeftSentence
+
+s54r:
+  text: tanzen die Mäuse auf den Tischen.
+  language: de
+  type: RightSentence
+
+s55:
+  text: Jeder Topf
+  language: de
+  type: LeftSentence
+
+s55r:
+  text: findet sein Deckelchen.
+  language: de
+  type: RightSentence
+
+s56:
+  text: Jeder
+  language: de
+  type: LeftSentence
+
+s56r:
+  text: ist seines Glückes Schmied.
+  language: de
+  type: RightSentence
+
+s57:
+  text: Jedes Böhnchen
+  language: de
+  type: LeftSentence
+
+s57r:
+  text: gibt ein Tönchen.
+  language: de
+  type: RightSentence
+
+s58:
+  text: Kapital
+  language: de
+  type: LeftSentence
+
+s58r:
+  text: hat keine Moral.
+  language: de
+  type: RightSentence
+
+s59:
+  text: Kindermund
+  language: de
+  type: LeftSentence
+
+s59r:
+  text: tut Wahrheit kund.
+  language: de
+  type: RightSentence
+
+s60:
+  text: Kleider
+  language: de
+  type: LeftSentence
+
+s60r:
+  text: machen Leute.
+  language: de
+  type: RightSentence
+
+s61:
+  text: Kleine Geschenke
+  language: de
+  type: LeftSentence
+
+s61r:
+  text: erhalten die Freundschaft.
+  language: de
+  type: RightSentence
+
+s62:
+  text: Kleine Sünden
+  language: de
+  type: LeftSentence
+
+s62r:
+  text: bestraft der liebe Gott sofort.
+  language: de
+  type: RightSentence
+
+s63:
+  text: Kleinvieh
+  language: de
+  type: LeftSentence
+
+s63r:
+  text: macht auch Mist.
+  language: de
+  type: RightSentence
+
+s64:
+  text: Knapp daneben
+  language: de
+  type: LeftSentence
+
+s64r:
+  text: ist auch vorbei.
+  language: de
+  type: RightSentence
+
+s65:
+  text: Liebe
+  language: de
+  type: LeftSentence
+
+s65r:
+  text: macht blind.
+  language: de
+  type: RightSentence
+
+s66:
+  text: Lügen
+  language: de
+  type: LeftSentence
+
+s66r:
+  text: haben kurze Beine.
+  language: de
+  type: RightSentence
+
+s67:
+  text: Messer, Gabel, Schere, Licht
+  language: de
+  type: LeftSentence
+
+s67r:
+  text: sind für kleine Kinder nicht.
+  language: de
+  type: RightSentence
+
+s68:
+  text: Morgenstund
+  language: de
+  type: LeftSentence
+
+s68r:
+  text: hat Gold im Mund.
+  language: de
+  type: RightSentence
+
+s69:
+  text: Müßiggang
+  language: de
+  type: LeftSentence
+
+s69r:
+  text: ist aller Laster Anfang.
+  language: de
+  type: RightSentence
+
+s70:
+  text: Neue Besen
+  language: de
+  type: LeftSentence
+
+s70r:
+  text: kehren gut.
+  language: de
+  type: RightSentence
+
+s71:
+  text: Neun Leben
+  language: de
+  type: LeftSentence
+
+s71r:
+  text: hat die Katze.
+  language: de
+  type: RightSentence
+
+s72:
+  text: Not
+  language: de
+  type: LeftSentence
+
+s72r:
+  text: macht erfinderisch.
+  language: de
+  type: RightSentence
+
+s73:
+  text: Ordnung
+  language: de
+  type: LeftSentence
+
+s73r:
+  text: ist das halbe Leben.
+  language: de
+  type: RightSentence
+
+s74:
+  text: Rache
+  language: de
+  type: LeftSentence
+
+s74r:
+  text: ist süß.
+  language: de
+  type: RightSentence
+
+s75:
+  text: Schadenfreude
+  language: de
+  type: LeftSentence
+
+s75r:
+  text: ist die beste Freude.
+  language: de
+  type: RightSentence
+
+s76:
+  text: Scherben
+  language: de
+  type: LeftSentence
+
+s76r:
+  text: bringen Glück.
+  language: de
+  type: RightSentence
+
+s77:
+  text: Schlafende Hunde
+  language: de
+  type: LeftSentence
+
+s77r:
+  text: soll man nicht wecken.
+  language: de
+  type: RightSentence
+
+s78:
+  text: Schlafende Hunde
+  language: de
+  type: LeftSentence
+
+s78r:
+  text: soll man nicht wecken.
+  language: de
+  type: RightSentence
+
+s79:
+  text: Selbsterkenntnis
+  language: de
+  type: LeftSentence
+
+s79r:
+  text: ist der erste Weg zur Besserung.
+  language: de
+  type: RightSentence
+
+s80:
+  text: Steter Tropfen
+  language: de
+  type: LeftSentence
+
+s80r:
+  text: hölt den Stein.
+  language: de
+  type: RightSentence
+
+s81:
+  text: Stille Wasser
+  language: de
+  type: LeftSentence
+
+s81r:
+  text: sind tief.
+  language: de
+  type: RightSentence
+
+s82:
+  text: Unkraut
+  language: de
+  type: LeftSentence
+
+s82r:
+  text: vergeht nicht.
+  language: de
+  type: RightSentence
+
+s83:
+  text: Unter den Blinden
+  language: de
+  type: LeftSentence
+
+s83r:
+  text: ist der Einäugige König.
+  language: de
+  type: RightSentence
+
+s84:
+  text: Unverhofft
+  language: de
+  type: LeftSentence
+
+s84r:
+  text: kommt oft.
+  language: de
+  type: RightSentence
+
+s85:
+  text: Viel
+  language: de
+  type: LeftSentence
+
+s85r:
+  text: hilft viel.
+  language: de
+  type: RightSentence
+
+s86:
+  text: Viele Jäger
+  language: de
+  type: LeftSentence
+
+s86r:
+  text: sind des Hasen Tod.
+  language: de
+  type: RightSentence
+
+s87:
+  text: Viele Köche
+  language: de
+  type: LeftSentence
+
+s87r:
+  text: verderben den Brei.
+  language: de
+  type: RightSentence
+
+s88:
+  text: Vorfreude
+  language: de
+  type: LeftSentence
+
+s88r:
+  text: ist die schönste Freude.
+  language: de
+  type: RightSentence
+
+s89:
+  text: Vorsicht
+  language: de
+  type: LeftSentence
+
+s89r:
+  text: ist die Mutter der Porzellankiste.
+  language: de
+  type: RightSentence
+
+s90:
+  text: Was Hänschen nicht lernt,
+  language: de
+  type: LeftSentence
+
+s90r:
+  text: lernt Hans nimmermehr.
+  language: de
+  type: RightSentence
+
+s91:
+  text: Was auf dem Boden liegt,
+  language: de
+  type: LeftSentence
+
+s91r:
+  text: hebt man nicht auf.
+  language: de
+  type: RightSentence
+
+s92:
+  text: Was auf den Tisch kommt,
+  language: de
+  type: LeftSentence
+
+s92r:
+  text: wird gegessen.
+  language: de
+  type: RightSentence
+
+s93:
+  text: Was der Bauer nicht kennt,
+  language: de
+  type: LeftSentence
+
+s93r:
+  text: frisst er nicht.
+  language: de
+  type: RightSentence
+
+s94:
+  text: Was dich nicht umbringt,
+  language: de
+  type: LeftSentence
+
+s94r:
+  text: macht dich stärker.
+  language: de
+  type: RightSentence
+
+s95:
+  text: Was du heute kannst besorgen,
+  language: de
+  type: LeftSentence
+
+s95r:
+  text: das verschiebe nicht auf morgen.
+  language: de
+  type: RightSentence
+
+s96:
+  text: Was du nicht willst, das man dir tut,
+  language: de
+  type: LeftSentence
+
+s96r:
+  text: das füg' auch keinem Anderen zu.
+  language: de
+  type: RightSentence
+
+s97:
+  text: Was lange währt,
+  language: de
+  type: LeftSentence
+
+s97r:
+  text: wird endlich gut.
+  language: de
+  type: RightSentence
+
+s98:
+  text: Was man nicht im Kopf hat,
+  language: de
+  type: LeftSentence
+
+s98r:
+  text: muß man in den Beinen haben.
+  language: de
+  type: RightSentence
+
+s99:
+  text: Was nicht passt,
+  language: de
+  type: LeftSentence
+
+s99r:
+  text: wird passend gemacht.
+  language: de
+  type: RightSentence
+
+s100:
+  text: Von nichts
+  language: de
+  type: LeftSentence
+
+s100r:
+  text: kommt nichts.
+  language: de
+  type: RightSentence
+
+s101:
+  text: Weniger
+  language: de
+  type: LeftSentence
+
+s101r:
+  text: ist mehr.
+  language: de
+  type: RightSentence
+
+s102:
+  text: Wer A sagt,
+  language: de
+  type: LeftSentence
+
+s102r:
+  text: muss auch B sagen.
+  language: de
+  type: RightSentence
+
+s103:
+  text: Wer Wind sät,
+  language: de
+  type: LeftSentence
+
+s103r:
+  text: wird Sturm ernten.
+  language: de
+  type: RightSentence
+
+s104:
+  text: Wer am Fluss baut,
+  language: de
+  type: LeftSentence
+
+s104r:
+  text: muss mit nassen Füßen rechnen.
+  language: de
+  type: RightSentence
+
+s105:
+  text: Wer anderen eine Grube gräbt,
+  language: de
+  type: LeftSentence
+
+s105r:
+  text: fällt selbst hinein
+  language: de
+  type: RightSentence
+
+s106:
+  text: Wer den Pfennig nicht ehrt,
+  language: de
+  type: LeftSentence
+
+s106r:
+  text: ist des Talers nicht wert.
+  language: de
+  type: RightSentence
+
+s107:
+  text: Wer den Schaden hat,
+  language: de
+  type: LeftSentence
+
+s107r:
+  text: braucht für den Spott nicht sorgen.
+  language: de
+  type: RightSentence
+
+s108:
+  text: Wer die Wahl hat,
+  language: de
+  type: LeftSentence
+
+s108r:
+  text: hat die Qual.
+  language: de
+  type: RightSentence
+
+s109:
+  text: Wer einmal lügt,
+  language: de
+  type: LeftSentence
+
+s109r:
+  text: dem glaubt man nicht, und wenn er auch die Wahrheit spricht.
+  language: de
+  type: RightSentence
+
+s110:
+  text: Wer gackert,
+  language: de
+  type: LeftSentence
+
+s110r:
+  text: muss auch legen.
+  language: de
+  type: RightSentence
+
+s111:
+  text: Wer im Glashaus sitzt,
+  language: de
+  type: LeftSentence
+
+s111r:
+  text: soll nicht mit Steinen werfen.
+  language: de
+  type: RightSentence
+
+s112:
+  text: Wer nicht kommt zur rechten Zeit,
+  language: de
+  type: LeftSentence
+
+s112r:
+  text: der muss seh'n, was übrig bleibt.
+  language: de
+  type: RightSentence
+
+s113:
+  text: Wer schläft,
+  language: de
+  type: LeftSentence
+
+s113r:
+  text: sündigt nicht.
+  language: de
+  type: RightSentence
+
+s114:
+  text: Wer schreit,
+  language: de
+  type: LeftSentence
+
+s114r:
+  text: hat Unrecht.
+  language: de
+  type: RightSentence
+
+s115:
+  text: Wer zu spät kommt,
+  language: de
+  type: LeftSentence
+
+s115r:
+  text: den bestraft das Leben.
+  language: de
+  type: RightSentence
+
+s116:
+  text: Wer zuerst kommt,
+  language: de
+  type: LeftSentence
+
+s116r:
+  text: mahlt zuerst.
+  language: de
+  type: RightSentence
+
+s117:
+  text: Wer zuletzt lacht,
+  language: de
+  type: LeftSentence
+
+s117r:
+  text: lacht am besten.
+  language: de
+  type: RightSentence
+
+s118:
+  text: Wie es in den Wald hineinschallt,
+  language: de
+  type: LeftSentence
+
+s118r:
+  text: so schallt es auch wieder heraus.
+  language: de
+  type: RightSentence
+
+s119:
+  text: Wie man sich bettet,
+  language: de
+  type: LeftSentence
+
+s119r:
+  text: so liegt man.
+  language: de
+  type: RightSentence
+
+s120:
+  text: Wo Rauch ist,
+  language: de
+  type: LeftSentence
+
+s120r:
+  text: ist auch Feuer.
+  language: de
+  type: RightSentence
+
+s121:
+  text: Wo ein Wille ist,
+  language: de
+  type: LeftSentence
+
+s121r:
+  text: ist auch ein Weg.
+  language: de
+  type: RightSentence
+
+s122:
+  text: Wo gehobelt wird,
+  language: de
+  type: LeftSentence
+
+s122r:
+  text: fallen Späne
+  language: de
+  type: RightSentence
+
+s123:
+  text: Wo kein Kläger ist,
+  language: de
+  type: LeftSentence
+
+s123r:
+  text: ist auch kein Richter.
+  language: de
+  type: RightSentence
+
+s124:
+  text: Wo zwei sich streiten,
+  language: de
+  type: LeftSentence
+
+s124r:
+  text: freut sich der Dritte
+  language: de
+  type: RightSentence
+
+s125:
+  text: Übung
+  language: de
+  type: LeftSentence
+
+s125r:
+  text: macht den Meister.
+  language: de
+  type: RightSentence
+
+s126:
+  text: Was sich liebt,
+  language: de
+  type: LeftSentence
+
+s126r:
+  text: das neckt sich.
+  language: de
+  type: RightSentence
+
+s127:
+  text: "Wenn du glaubst, es geht nicht mehr,"
+  language: de
+  type: LeftSentence
+
+s127r:
+  text: kommt von irgendwo ein Lichtlein her.
+  language: de
+  type: RightSentence
+  
+s128:
+  text: Eigenlob
+  language: de
+  type: LeftSentence
+
+s128r:
+  text: stinkt.
+  language: de
+  type: RightSentence
+
+s129:
+  text: Einmal
+  language: de
+  type: LeftSentence
+
+s129r:
+  text: ist keinmal.
+  language: de
+  type: RightSentence

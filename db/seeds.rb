@@ -5,3 +5,8 @@
 #   
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Major.create(:name => 'Daley', :city => cities.first)
+
+require 'active_record/fixtures'
+
+Fixtures.create_fixtures("#{Rails.root}/test/fixtures", 'sentences')
+#Fixtures.create_fixtures("#{Rails.root}/test/fixtures", 'sayings')
