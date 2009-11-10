@@ -41,7 +41,12 @@ Rails::Initializer.run do |config|
   
   config.gem 'authlogic'
   config.gem 'facebooker'
+  
   config.gem 'oauth'
   config.gem 'authlogic-oauth', :lib => 'authlogic_oauth'
+  
+  config.gem 'ruby-openid', :lib => 'openid'
+  config.gem 'authlogic-oid', :lib => 'authlogic_openid' #rake open_id_authentification:db:create
+  
   
 end
