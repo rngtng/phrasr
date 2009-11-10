@@ -3,10 +3,13 @@ class CreateSentences < ActiveRecord::Migration
     create_table :sentences do |t|
       t.string :text
       t.string :type
-      t.string :language
+      t.string :language, :default => 'de'
+      t.integer :opponent_id
       
       t.timestamps
     end
+    
+    add_index :sentences, [:id, :type, :language]
   end
 
   def self.down

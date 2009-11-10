@@ -1,0 +1,16 @@
+
+.star {
+  border: 0px;
+  background: url(/images/stars/crystal/stars24.png) no-repeat;
+  background-position: 0px 0px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin:0px;
+  border:0px;
+  padding:0px;
+}
+
+.star.over {
+  background-position: 0px -24px;
+}

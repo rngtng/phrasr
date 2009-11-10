@@ -1,2 +1,20 @@
-<h1><i><%= @left_sentence.text %></i></h1>
-<h1><i><%= @right_sentence.text %></i></h1>
+<% Vote %>
+<br><br><br><br>
+<div style="text-align:center; text-shadow:#002255">
+  <h1 style="text-shadow:#555 2px 2px 4px;font-style:italic;">"<%= @saying.left_sentence.text %><span></span></h1>
+  <h1 style="text-shadow:#555 2px 2px 4px;font-style:italic;"><span></span><%= @saying.right_sentence.text %>"</h1>
+</div>
+
+
+<br><br><br><br>
+<div style="text-align:center;" onmouseout="hide_stars(<%= Vote::STARS-1 %>)">
+  Vote: 
+    <% Vote::STARS.times do |star_nr| %>
+      <%= link_to '', votes_path(:saying_id => @saying.id, :vote => star_nr), :method => :post, :id => "star#{star_nr}", :class => "star", :onmouseover => "show_stars(#{star_nr})" %>
+    <% end %>
+</div>
+
+
+<br><br><br><br><br><br>
+
+Share on Facebook, Twitter

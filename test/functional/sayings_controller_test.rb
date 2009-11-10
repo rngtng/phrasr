@@ -5,4 +5,8 @@ class SayingsControllerTest < ActionController::TestCase
   test "the truth" do
     assert true
   end
+  
+  test "should render" do
+    get :random
+  end
 end

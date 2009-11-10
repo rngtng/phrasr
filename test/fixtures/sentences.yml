@@ -1,1313 +1,1820 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-s0:
-  text: 'Morgen, morgen, nur nicht heute'
-  language: de
-  type: LeftSentence
-  
-s0r:
-  text: sagen alle faulen Leute.
-  language: de
-  type: RightSentence
-
 s1:
-  text: Adel
+  id: 1
+  text: "Morgen, morgen, nur nicht heute"
   language: de
   type: LeftSentence
-
-s1r:
-  text: verpflichtet.
-  language: de
-  type: RightSentence
+  opponent_id: 2
 
 s2:
-  text: Aller guten Dinge
-  language: de
-  type: LeftSentence
-
-s2r:
-  text: sind drei.
+  id: 2
+  text: "sagen alle faulen Leute."
   language: de
   type: RightSentence
+  opponent_id: 1
 
 s3:
-  text: Alles gute
+  id: 3
+  text: "Adel"
   language: de
   type: LeftSentence
-
-s3r:
-  text: kommt von oben.
-  language: de
-  type: RightSentence  
+  opponent_id: 4
 
 s4:
-  text: Alte Liebe
-  language: de
-  type: LeftSentence
-
-s4r:
-  text: rostet nicht.
+  id: 4
+  text: "verpflichtet."
   language: de
   type: RightSentence
+  opponent_id: 3
 
 s5:
-  text: Alter
+  id: 5
+  text: "Aller guten Dinge"
   language: de
   type: LeftSentence
-
-s5r:
-  text: schützt vor Torheit nicht.
-  language: de
-  type: RightSentence
+  opponent_id: 6
 
 s6:
-  text: Am Abend
-  language: de
-  type: LeftSentence
-
-s6r:
-  text: wird der Faule fleißig.
+  id: 6
+  text: "sind drei."
   language: de
   type: RightSentence
+  opponent_id: 5
 
 s7:
-  text: Andere Mütter
+  id: 7
+  text: "Alles gute"
   language: de
   type: LeftSentence
-
-s7r:
-  language: de
-  type: LeftSentence
-
-s7r:
-  text: haben auch schöne Töchter.
-  language: de
-  type: RightSentence
+  opponent_id: 8
 
 s8:
-  text: Auch Rom
-  language: de
-  type: LeftSentence
-
-s8r:
-  language: de
-  type: LeftSentence
-
-s8r:
-  text: wurde nicht an einem Tag gebaut.
+  id: 8
+  text: "kommt von oben."
   language: de
   type: RightSentence
+  opponent_id: 7
 
 s9:
-  text: Auch ein blindes Huhn
+  id: 9
+  text: "Alte Liebe"
   language: de
   type: LeftSentence
-
-s9r:
-  language: de
-  type: LeftSentence
-
-s9r:
-  text: findet einmal ein Korn.
-  language: de
-  type: RightSentence
+  opponent_id: 10
 
 s10:
-  text: Auf alten Pferden
-  language: de
-  type: LeftSentence
-
-s10r:
-  text: lernt man Reiten.
+  id: 10
+  text: "rostet nicht."
   language: de
   type: RightSentence
+  opponent_id: 9
 
 s11:
-  text: Das letzte Hemd
+  id: 11
+  text: "Alter"
   language: de
   type: LeftSentence
-
-s11r:
-  text: hat keine Taschen.
-  language: de
-  type: RightSentence
+  opponent_id: 12
 
 s12:
-  text: Den Letzten
-  language: de
-  type: LeftSentence
-
-s12r:
-  text: beißen die Hunde.
+  id: 12
+  text: "schützt vor Torheit nicht."
   language: de
   type: RightSentence
+  opponent_id: 11
 
 s13:
-  text: Der Apfel
+  id: 13
+  text: "Am Abend"
   language: de
   type: LeftSentence
-
-s13r:
-  text: fällt nicht weit vom Stamm.
-  language: de
-  type: RightSentence
+  opponent_id: 14
 
 s14:
-  text: Der Appetit
-  language: de
-  type: LeftSentence
-
-s14r:
-  text: kommt beim Essen.
+  id: 14
+  text: "wird der Faule fleißig."
   language: de
   type: RightSentence
+  opponent_id: 13
 
 s15:
-  text: Der Esel
+  id: 15
+  text: "Andere Mütter"
   language: de
   type: LeftSentence
-
-s15r:
-  text: nennt sich immer zuerst.
-  language: de
-  type: RightSentence
+  opponent_id: 16
 
 s16:
-  text: Der Fisch
-  language: de
-  type: LeftSentence
-
-s16r:
-  text: stinkt vom Kopf her.
+  id: 16
+  text: "haben auch schöne Töchter."
   language: de
   type: RightSentence
+  opponent_id: 15
 
 s17:
-  text: Der Glauben
+  id: 17
+  text: "Auch Rom"
   language: de
   type: LeftSentence
-
-s17r:
-  text: kann Berge versetzen.
-  language: de
-  type: RightSentence
+  opponent_id: 18
 
 s18:
-  text: Der Klügere
-  language: de
-  type: LeftSentence
-
-s18r:
-  text: gibt nach.
+  id: 18
+  text: "wurde nicht an einem Tag gebaut."
   language: de
   type: RightSentence
+  opponent_id: 17
 
 s19:
-  text: Der Krug geht zum Brunnen
+  id: 19
+  text: "Auch ein blindes Huhn"
   language: de
   type: LeftSentence
-
-s19r:
-  text: bis er bricht.
-  language: de
-  type: RightSentence
+  opponent_id: 20
 
 s20:
-  text: Der Mensch
-  language: de
-  type: LeftSentence
-
-s20r:
-  text: lebt nicht vom Brot allein.
+  id: 20
+  text: "findet einmal ein Korn."
   language: de
   type: RightSentence
+  opponent_id: 19
 
 s21:
-  text: Der Spatz in der Hand
+  id: 21
+  text: "Auf alten Pferden"
   language: de
   type: LeftSentence
-
-s21r:
-  text: ist besser als die Taube auf dem Dach.
-  language: de
-  type: RightSentence
+  opponent_id: 22
 
 s22:
-  text: Der dümmste Bauer
-  language: de
-  type: LeftSentence
-
-s22r:
-  text: erntet die dicksten Kartoffeln.
+  id: 22
+  text: "lernt man Reiten."
   language: de
   type: RightSentence
+  opponent_id: 21
 
 s23:
-  text: Der frühe Vogel
+  id: 23
+  text: "Das letzte Hemd"
   language: de
   type: LeftSentence
-
-s23r:
-  text: fängt den Wurm.
-  language: de
-  type: RightSentence
+  opponent_id: 24
 
 s24:
-  text: Des einen Leid
-  language: de
-  type: LeftSentence
-
-s24r:
-  text: ist des anderen Freud.
+  id: 24
+  text: "hat keine Taschen."
   language: de
   type: RightSentence
+  opponent_id: 23
 
 s25:
-  text: Die Axt im Haus
+  id: 25
+  text: "Den Letzten"
   language: de
   type: LeftSentence
-
-s25r:
-  text: ersetzt den Zimmermann.
-  language: de
-  type: RightSentence
+  opponent_id: 26
 
 s26:
-  text: Die Hoffnung
-  language: de
-  type: LeftSentence
-
-s26r:
-  text: stirbt zuletzt.
+  id: 26
+  text: "beißen die Hunde."
   language: de
   type: RightSentence
+  opponent_id: 25
 
 s27:
-  text: Die Letzten
+  id: 27
+  text: "Der Apfel"
   language: de
   type: LeftSentence
-
-s27r:
-  text: werden die Ersten sein.
-  language: de
-  type: RightSentence
+  opponent_id: 28
 
 s28:
-  text: Die Zeit
-  language: de
-  type: LeftSentence
-
-s28r:
-  text: heilt alle Wunden.
+  id: 28
+  text: "fällt nicht weit vom Stamm."
   language: de
   type: RightSentence
+  opponent_id: 27
 
 s29:
-  text: Doppelt genäht
+  id: 29
+  text: "Der Appetit"
   language: de
   type: LeftSentence
-
-s29r:
-  text: hält besser.
-  language: de
-  type: RightSentence
+  opponent_id: 30
 
 s30:
-  text: Dummheit
-  language: de
-  type: LeftSentence
-
-s30r:
-  text: schützt vor Strafe nicht.
+  id: 30
+  text: "kommt beim Essen."
   language: de
   type: RightSentence
+  opponent_id: 29
 
 s31:
-  text: Dummheit
+  id: 31
+  text: "Der Esel"
   language: de
   type: LeftSentence
-
-s31r:
-  text: tut weh.
-  language: de
-  type: RightSentence
+  opponent_id: 32
 
 s32:
-  text: Ehrlich
-  language: de
-  type: LeftSentence
-
-s32r:
-  text: währt am längsten.
+  id: 32
+  text: "nennt sich immer zuerst."
   language: de
   type: RightSentence
+  opponent_id: 31
 
 s33:
-  text: Ein Unglück
+  id: 33
+  text: "Der Fisch"
   language: de
   type: LeftSentence
-
-s33r:
-  text: kommt selten allein.
-  language: de
-  type: RightSentence
+  opponent_id: 34
 
 s34:
-  text: Ein voller Bauch
-  language: de
-  type: LeftSentence
-
-s34r:
-  text: studiert nicht gern.
+  id: 34
+  text: "stinkt vom Kopf her."
   language: de
   type: RightSentence
+  opponent_id: 33
 
 s35:
-  text: Eine Hand
+  id: 35
+  text: "Der Glauben"
   language: de
   type: LeftSentence
-
-s35r:
-  text: wäscht die andere.
-  language: de
-  type: RightSentence
+  opponent_id: 36
 
 s36:
-  text: Eine Schwalbe
-  language: de
-  type: LeftSentence
-
-s36r:
-  text: macht noch keinen Sommer.
+  id: 36
+  text: "kann Berge versetzen."
   language: de
   type: RightSentence
+  opponent_id: 35
 
 s37:
-  text: Gegensätze
+  id: 37
+  text: "Der Klügere"
   language: de
   type: LeftSentence
-
-s37r:
-  text: ziehen sich an.
-  language: de
-  type: RightSentence
+  opponent_id: 38
 
 s38:
-  text: Geld allein
-  language: de
-  type: LeftSentence
-
-s38r:
-  text: macht nicht glücklich.
+  id: 38
+  text: "gibt nach."
   language: de
   type: RightSentence
+  opponent_id: 37
 
 s39:
-  text: Geld
+  id: 39
+  text: "Der Krug geht zum Brunnen"
   language: de
   type: LeftSentence
-
-s39r:
-  text: regiert die Welt.
-  language: de
-  type: RightSentence
+  opponent_id: 40
 
 s40:
-  text: Geld
-  language: de
-  type: LeftSentence
-
-s40r:
-  text: stinkt nicht.
+  id: 40
+  text: "bis er bricht."
   language: de
   type: RightSentence
+  opponent_id: 39
 
 s41:
-  text: Gelegenheit
+  id: 41
+  text: "Der Mensch"
   language: de
   type: LeftSentence
-
-s41r:
-  text: macht Diebe.
-  language: de
-  type: RightSentence
+  opponent_id: 42
 
 s42:
-  text: Geteiltes Leid
-  language: de
-  type: LeftSentence
-
-s42r:
-  text: ist halbes Leid.
+  id: 42
+  text: "lebt nicht vom Brot allein."
   language: de
   type: RightSentence
+  opponent_id: 41
 
 s43:
-  text: Gleich und Gleich
+  id: 43
+  text: "Der Spatz in der Hand"
   language: de
   type: LeftSentence
-
-s43r:
-  text: gesellt sich gern.
-  language: de
-  type: RightSentence
+  opponent_id: 44
 
 s44:
-  text: Gut Ding
-  language: de
-  type: LeftSentence
-
-s44r:
-  text: will Weile haben.
+  id: 44
+  text: "ist besser als die Taube auf dem Dach."
   language: de
   type: RightSentence
+  opponent_id: 43
 
 s45:
-  text: Hochmut
+  id: 45
+  text: "Der dümmste Bauer"
   language: de
   type: LeftSentence
-
-s45r:
-  text: kommt vor dem Fall.
-  language: de
-  type: RightSentence
+  opponent_id: 46
 
 s46:
-  text: Hunde, die bellen,
-  language: de
-  type: LeftSentence
-
-s46r:
-  text: beißen nicht.
+  id: 46
+  text: "erntet die dicksten Kartoffeln."
   language: de
   type: RightSentence
+  opponent_id: 45
 
 s47:
-  text: Hunger
+  id: 47
+  text: "Der frühe Vogel"
   language: de
   type: LeftSentence
-
-s47r:
-  text: ist der beste Koch.
-  language: de
-  type: RightSentence
+  opponent_id: 48
 
 s48:
-  text: Im Becher
-  language: de
-  type: LeftSentence
-
-s48r:
-  text: ersaufen mehr Leute als im Bach.
+  id: 48
+  text: "fängt den Wurm."
   language: de
   type: RightSentence
+  opponent_id: 47
 
 s49:
-  text: Im Wein
+  id: 49
+  text: "Des einen Leid"
   language: de
   type: LeftSentence
-
-s49r:
-  text: liegt die Wahrheit.
-  language: de
-  type: RightSentence
+  opponent_id: 50
 
 s50:
-  text: In der Kürze
-  language: de
-  type: LeftSentence
-
-s50r:
-  text: liegt die Würze.
+  id: 50
+  text: "ist des anderen Freud."
   language: de
   type: RightSentence
+  opponent_id: 49
 
 s51:
-  text: In der Nacht
+  id: 51
+  text: "Die Axt im Haus"
   language: de
   type: LeftSentence
-
-s51r:
-  text: sind alle Katzen grau.
-  language: de
-  type: RightSentence
+  opponent_id: 52
 
 s52:
-  text: In der Not
-  language: de
-  type: LeftSentence
-
-s52r:
-  text: frisst der Teufel Fliegen.
+  id: 52
+  text: "ersetzt den Zimmermann."
   language: de
   type: RightSentence
+  opponent_id: 51
 
 s53:
-  text: In der Ruhe
+  id: 53
+  text: "Die Hoffnung"
   language: de
   type: LeftSentence
-
-s53r:
-  text: liegt die Kraft.
-  language: de
-  type: RightSentence
+  opponent_id: 54
 
 s54:
-  text: Ist die Katze aus dem Haus,
-  language: de
-  type: LeftSentence
-
-s54r:
-  text: tanzen die Mäuse auf den Tischen.
+  id: 54
+  text: "stirbt zuletzt."
   language: de
   type: RightSentence
+  opponent_id: 53
 
 s55:
-  text: Jeder Topf
+  id: 55
+  text: "Die Letzten"
   language: de
   type: LeftSentence
-
-s55r:
-  text: findet sein Deckelchen.
-  language: de
-  type: RightSentence
+  opponent_id: 56
 
 s56:
-  text: Jeder
-  language: de
-  type: LeftSentence
-
-s56r:
-  text: ist seines Glückes Schmied.
+  id: 56
+  text: "werden die Ersten sein."
   language: de
   type: RightSentence
+  opponent_id: 55
 
 s57:
-  text: Jedes Böhnchen
+  id: 57
+  text: "Die Zeit"
   language: de
   type: LeftSentence
-
-s57r:
-  text: gibt ein Tönchen.
-  language: de
-  type: RightSentence
+  opponent_id: 58
 
 s58:
-  text: Kapital
-  language: de
-  type: LeftSentence
-
-s58r:
-  text: hat keine Moral.
+  id: 58
+  text: "heilt alle Wunden."
   language: de
   type: RightSentence
+  opponent_id: 57
 
 s59:
-  text: Kindermund
+  id: 59
+  text: "Doppelt genäht"
   language: de
   type: LeftSentence
-
-s59r:
-  text: tut Wahrheit kund.
-  language: de
-  type: RightSentence
+  opponent_id: 60
 
 s60:
-  text: Kleider
-  language: de
-  type: LeftSentence
-
-s60r:
-  text: machen Leute.
+  id: 60
+  text: "hält besser."
   language: de
   type: RightSentence
+  opponent_id: 59
 
 s61:
-  text: Kleine Geschenke
+  id: 61
+  text: "Dummheit"
   language: de
   type: LeftSentence
-
-s61r:
-  text: erhalten die Freundschaft.
-  language: de
-  type: RightSentence
+  opponent_id: 62
 
 s62:
-  text: Kleine Sünden
-  language: de
-  type: LeftSentence
-
-s62r:
-  text: bestraft der liebe Gott sofort.
+  id: 62
+  text: "schützt vor Strafe nicht."
   language: de
   type: RightSentence
+  opponent_id: 61
 
 s63:
-  text: Kleinvieh
+  id: 63
+  text: "Dummheit"
   language: de
   type: LeftSentence
-
-s63r:
-  text: macht auch Mist.
-  language: de
-  type: RightSentence
+  opponent_id: 64
 
 s64:
-  text: Knapp daneben
-  language: de
-  type: LeftSentence
-
-s64r:
-  text: ist auch vorbei.
+  id: 64
+  text: "tut weh."
   language: de
   type: RightSentence
+  opponent_id: 63
 
 s65:
-  text: Liebe
+  id: 65
+  text: "Ehrlich"
   language: de
   type: LeftSentence
-
-s65r:
-  text: macht blind.
-  language: de
-  type: RightSentence
+  opponent_id: 66
 
 s66:
-  text: Lügen
-  language: de
-  type: LeftSentence
-
-s66r:
-  text: haben kurze Beine.
+  id: 66
+  text: "währt am längsten."
   language: de
   type: RightSentence
+  opponent_id: 65
 
 s67:
-  text: Messer, Gabel, Schere, Licht
+  id: 67
+  text: "Ein Unglück"
   language: de
   type: LeftSentence
-
-s67r:
-  text: sind für kleine Kinder nicht.
-  language: de
-  type: RightSentence
+  opponent_id: 68
 
 s68:
-  text: Morgenstund
-  language: de
-  type: LeftSentence
-
-s68r:
-  text: hat Gold im Mund.
+  id: 68
+  text: "kommt selten allein."
   language: de
   type: RightSentence
+  opponent_id: 67
 
 s69:
-  text: Müßiggang
+  id: 69
+  text: "Ein voller Bauch"
   language: de
   type: LeftSentence
-
-s69r:
-  text: ist aller Laster Anfang.
-  language: de
-  type: RightSentence
+  opponent_id: 70
 
 s70:
-  text: Neue Besen
-  language: de
-  type: LeftSentence
-
-s70r:
-  text: kehren gut.
+  id: 70
+  text: "studiert nicht gern."
   language: de
   type: RightSentence
+  opponent_id: 69
 
 s71:
-  text: Neun Leben
+  id: 71
+  text: "Eine Hand"
   language: de
   type: LeftSentence
-
-s71r:
-  text: hat die Katze.
-  language: de
-  type: RightSentence
+  opponent_id: 72
 
 s72:
-  text: Not
-  language: de
-  type: LeftSentence
-
-s72r:
-  text: macht erfinderisch.
+  id: 72
+  text: "wäscht die andere."
   language: de
   type: RightSentence
+  opponent_id: 71
 
 s73:
-  text: Ordnung
+  id: 73
+  text: "Eine Schwalbe"
   language: de
   type: LeftSentence
-
-s73r:
-  text: ist das halbe Leben.
-  language: de
-  type: RightSentence
+  opponent_id: 74
 
 s74:
-  text: Rache
-  language: de
-  type: LeftSentence
-
-s74r:
-  text: ist süß.
+  id: 74
+  text: "macht noch keinen Sommer."
   language: de
   type: RightSentence
+  opponent_id: 73
 
 s75:
-  text: Schadenfreude
+  id: 75
+  text: "Gegensätze"
   language: de
   type: LeftSentence
-
-s75r:
-  text: ist die beste Freude.
-  language: de
-  type: RightSentence
+  opponent_id: 76
 
 s76:
-  text: Scherben
-  language: de
-  type: LeftSentence
-
-s76r:
-  text: bringen Glück.
+  id: 76
+  text: "ziehen sich an."
   language: de
   type: RightSentence
+  opponent_id: 75
 
 s77:
-  text: Schlafende Hunde
+  id: 77
+  text: "Geld allein"
   language: de
   type: LeftSentence
-
-s77r:
-  text: soll man nicht wecken.
-  language: de
-  type: RightSentence
+  opponent_id: 78
 
 s78:
-  text: Schlafende Hunde
-  language: de
-  type: LeftSentence
-
-s78r:
-  text: soll man nicht wecken.
+  id: 78
+  text: "macht nicht glücklich."
   language: de
   type: RightSentence
+  opponent_id: 77
 
 s79:
-  text: Selbsterkenntnis
+  id: 79
+  text: "Geld"
   language: de
   type: LeftSentence
-
-s79r:
-  text: ist der erste Weg zur Besserung.
-  language: de
-  type: RightSentence
+  opponent_id: 80
 
 s80:
-  text: Steter Tropfen
-  language: de
-  type: LeftSentence
-
-s80r:
-  text: hölt den Stein.
+  id: 80
+  text: "regiert die Welt."
   language: de
   type: RightSentence
+  opponent_id: 79
 
 s81:
-  text: Stille Wasser
+  id: 81
+  text: "Geld"
   language: de
   type: LeftSentence
-
-s81r:
-  text: sind tief.
-  language: de
-  type: RightSentence
+  opponent_id: 82
 
 s82:
-  text: Unkraut
-  language: de
-  type: LeftSentence
-
-s82r:
-  text: vergeht nicht.
+  id: 82
+  text: "stinkt nicht."
   language: de
   type: RightSentence
+  opponent_id: 81
 
 s83:
-  text: Unter den Blinden
+  id: 83
+  text: "Gelegenheit"
   language: de
   type: LeftSentence
-
-s83r:
-  text: ist der Einäugige König.
-  language: de
-  type: RightSentence
+  opponent_id: 84
 
 s84:
-  text: Unverhofft
-  language: de
-  type: LeftSentence
-
-s84r:
-  text: kommt oft.
+  id: 84
+  text: "macht Diebe."
   language: de
   type: RightSentence
+  opponent_id: 83
 
 s85:
-  text: Viel
+  id: 85
+  text: "Geteiltes Leid"
   language: de
   type: LeftSentence
-
-s85r:
-  text: hilft viel.
-  language: de
-  type: RightSentence
+  opponent_id: 86
 
 s86:
-  text: Viele Jäger
-  language: de
-  type: LeftSentence
-
-s86r:
-  text: sind des Hasen Tod.
+  id: 86
+  text: "ist halbes Leid."
   language: de
   type: RightSentence
+  opponent_id: 85
 
 s87:
-  text: Viele Köche
+  id: 87
+  text: "Gleich und Gleich"
   language: de
   type: LeftSentence
-
-s87r:
-  text: verderben den Brei.
-  language: de
-  type: RightSentence
+  opponent_id: 88
 
 s88:
-  text: Vorfreude
-  language: de
-  type: LeftSentence
-
-s88r:
-  text: ist die schönste Freude.
+  id: 88
+  text: "gesellt sich gern."
   language: de
   type: RightSentence
+  opponent_id: 87
 
 s89:
-  text: Vorsicht
+  id: 89
+  text: "Gut Ding"
   language: de
   type: LeftSentence
-
-s89r:
-  text: ist die Mutter der Porzellankiste.
-  language: de
-  type: RightSentence
+  opponent_id: 90
 
 s90:
-  text: Was Hänschen nicht lernt,
-  language: de
-  type: LeftSentence
-
-s90r:
-  text: lernt Hans nimmermehr.
+  id: 90
+  text: "will Weile haben."
   language: de
   type: RightSentence
+  opponent_id: 89
 
 s91:
-  text: Was auf dem Boden liegt,
+  id: 91
+  text: "Hochmut"
   language: de
   type: LeftSentence
-
-s91r:
-  text: hebt man nicht auf.
-  language: de
-  type: RightSentence
+  opponent_id: 92
 
 s92:
-  text: Was auf den Tisch kommt,
-  language: de
-  type: LeftSentence
-
-s92r:
-  text: wird gegessen.
+  id: 92
+  text: "kommt vor dem Fall."
   language: de
   type: RightSentence
+  opponent_id: 91
 
 s93:
-  text: Was der Bauer nicht kennt,
+  id: 93
+  text: "Hunde, die bellen,"
   language: de
   type: LeftSentence
-
-s93r:
-  text: frisst er nicht.
-  language: de
-  type: RightSentence
+  opponent_id: 94
 
 s94:
-  text: Was dich nicht umbringt,
-  language: de
-  type: LeftSentence
-
-s94r:
-  text: macht dich stärker.
+  id: 94
+  text: "beißen nicht."
   language: de
   type: RightSentence
+  opponent_id: 93
 
 s95:
-  text: Was du heute kannst besorgen,
+  id: 95
+  text: "Hunger"
   language: de
   type: LeftSentence
-
-s95r:
-  text: das verschiebe nicht auf morgen.
-  language: de
-  type: RightSentence
+  opponent_id: 96
 
 s96:
-  text: Was du nicht willst, das man dir tut,
-  language: de
-  type: LeftSentence
-
-s96r:
-  text: das füg' auch keinem Anderen zu.
+  id: 96
+  text: "ist der beste Koch."
   language: de
   type: RightSentence
+  opponent_id: 95
 
 s97:
-  text: Was lange währt,
+  id: 97
+  text: "Im Becher"
   language: de
   type: LeftSentence
-
-s97r:
-  text: wird endlich gut.
-  language: de
-  type: RightSentence
+  opponent_id: 98
 
 s98:
-  text: Was man nicht im Kopf hat,
-  language: de
-  type: LeftSentence
-
-s98r:
-  text: muß man in den Beinen haben.
+  id: 98
+  text: "ersaufen mehr Leute als im Bach."
   language: de
   type: RightSentence
+  opponent_id: 97
 
 s99:
-  text: Was nicht passt,
+  id: 99
+  text: "Im Wein"
   language: de
   type: LeftSentence
-
-s99r:
-  text: wird passend gemacht.
-  language: de
-  type: RightSentence
+  opponent_id: 100
 
 s100:
-  text: Von nichts
-  language: de
-  type: LeftSentence
-
-s100r:
-  text: kommt nichts.
+  id: 100
+  text: "liegt die Wahrheit."
   language: de
   type: RightSentence
+  opponent_id: 99
 
 s101:
-  text: Weniger
+  id: 101
+  text: "In der Kürze"
   language: de
   type: LeftSentence
-
-s101r:
-  text: ist mehr.
-  language: de
-  type: RightSentence
+  opponent_id: 102
 
 s102:
-  text: Wer A sagt,
-  language: de
-  type: LeftSentence
-
-s102r:
-  text: muss auch B sagen.
+  id: 102
+  text: "liegt die Würze."
   language: de
   type: RightSentence
+  opponent_id: 101
 
 s103:
-  text: Wer Wind sät,
+  id: 103
+  text: "In der Nacht"
   language: de
   type: LeftSentence
-
-s103r:
-  text: wird Sturm ernten.
-  language: de
-  type: RightSentence
+  opponent_id: 104
 
 s104:
-  text: Wer am Fluss baut,
-  language: de
-  type: LeftSentence
-
-s104r:
-  text: muss mit nassen Füßen rechnen.
+  id: 104
+  text: "sind alle Katzen grau."
   language: de
   type: RightSentence
+  opponent_id: 103
 
 s105:
-  text: Wer anderen eine Grube gräbt,
+  id: 105
+  text: "In der Not"
   language: de
   type: LeftSentence
-
-s105r:
-  text: fällt selbst hinein
-  language: de
-  type: RightSentence
+  opponent_id: 106
 
 s106:
-  text: Wer den Pfennig nicht ehrt,
-  language: de
-  type: LeftSentence
-
-s106r:
-  text: ist des Talers nicht wert.
+  id: 106
+  text: "frisst der Teufel Fliegen."
   language: de
   type: RightSentence
+  opponent_id: 105
 
 s107:
-  text: Wer den Schaden hat,
+  id: 107
+  text: "In der Ruhe"
   language: de
   type: LeftSentence
-
-s107r:
-  text: braucht für den Spott nicht sorgen.
-  language: de
-  type: RightSentence
+  opponent_id: 108
 
 s108:
-  text: Wer die Wahl hat,
-  language: de
-  type: LeftSentence
-
-s108r:
-  text: hat die Qual.
+  id: 108
+  text: "liegt die Kraft."
   language: de
   type: RightSentence
+  opponent_id: 107
 
 s109:
-  text: Wer einmal lügt,
+  id: 109
+  text: "Ist die Katze aus dem Haus,"
   language: de
   type: LeftSentence
-
-s109r:
-  text: dem glaubt man nicht, und wenn er auch die Wahrheit spricht.
-  language: de
-  type: RightSentence
+  opponent_id: 110
 
 s110:
-  text: Wer gackert,
-  language: de
-  type: LeftSentence
-
-s110r:
-  text: muss auch legen.
+  id: 110
+  text: "tanzen die Mäuse auf den Tischen."
   language: de
   type: RightSentence
+  opponent_id: 109
 
 s111:
-  text: Wer im Glashaus sitzt,
+  id: 111
+  text: "Jeder Topf"
   language: de
   type: LeftSentence
-
-s111r:
-  text: soll nicht mit Steinen werfen.
-  language: de
-  type: RightSentence
+  opponent_id: 112
 
 s112:
-  text: Wer nicht kommt zur rechten Zeit,
-  language: de
-  type: LeftSentence
-
-s112r:
-  text: der muss seh'n, was übrig bleibt.
+  id: 112
+  text: "findet sein Deckelchen."
   language: de
   type: RightSentence
+  opponent_id: 111
 
 s113:
-  text: Wer schläft,
+  id: 113
+  text: "Jeder"
   language: de
   type: LeftSentence
-
-s113r:
-  text: sündigt nicht.
-  language: de
-  type: RightSentence
+  opponent_id: 114
 
 s114:
-  text: Wer schreit,
-  language: de
-  type: LeftSentence
-
-s114r:
-  text: hat Unrecht.
+  id: 114
+  text: "ist seines Glückes Schmied."
   language: de
   type: RightSentence
+  opponent_id: 113
 
 s115:
-  text: Wer zu spät kommt,
+  id: 115
+  text: "Jedes Böhnchen"
   language: de
   type: LeftSentence
-
-s115r:
-  text: den bestraft das Leben.
-  language: de
-  type: RightSentence
+  opponent_id: 116
 
 s116:
-  text: Wer zuerst kommt,
-  language: de
-  type: LeftSentence
-
-s116r:
-  text: mahlt zuerst.
+  id: 116
+  text: "gibt ein Tönchen."
   language: de
   type: RightSentence
+  opponent_id: 115
 
 s117:
-  text: Wer zuletzt lacht,
+  id: 117
+  text: "Kapital"
   language: de
   type: LeftSentence
-
-s117r:
-  text: lacht am besten.
-  language: de
-  type: RightSentence
+  opponent_id: 118
 
 s118:
-  text: Wie es in den Wald hineinschallt,
-  language: de
-  type: LeftSentence
-
-s118r:
-  text: so schallt es auch wieder heraus.
+  id: 118
+  text: "hat keine Moral."
   language: de
   type: RightSentence
+  opponent_id: 117
 
 s119:
-  text: Wie man sich bettet,
+  id: 119
+  text: "Kindermund"
   language: de
   type: LeftSentence
-
-s119r:
-  text: so liegt man.
-  language: de
-  type: RightSentence
+  opponent_id: 120
 
 s120:
-  text: Wo Rauch ist,
-  language: de
-  type: LeftSentence
-
-s120r:
-  text: ist auch Feuer.
+  id: 120
+  text: "tut Wahrheit kund."
   language: de
   type: RightSentence
+  opponent_id: 119
 
 s121:
-  text: Wo ein Wille ist,
+  id: 121
+  text: "Kleider"
   language: de
   type: LeftSentence
-
-s121r:
-  text: ist auch ein Weg.
-  language: de
-  type: RightSentence
+  opponent_id: 122
 
 s122:
-  text: Wo gehobelt wird,
-  language: de
-  type: LeftSentence
-
-s122r:
-  text: fallen Späne
+  id: 122
+  text: "machen Leute."
   language: de
   type: RightSentence
+  opponent_id: 121
 
 s123:
-  text: Wo kein Kläger ist,
+  id: 123
+  text: "Kleine Geschenke"
   language: de
   type: LeftSentence
-
-s123r:
-  text: ist auch kein Richter.
-  language: de
-  type: RightSentence
+  opponent_id: 124
 
 s124:
-  text: Wo zwei sich streiten,
-  language: de
-  type: LeftSentence
-
-s124r:
-  text: freut sich der Dritte
+  id: 124
+  text: "erhalten die Freundschaft."
   language: de
   type: RightSentence
+  opponent_id: 123
 
 s125:
-  text: Übung
+  id: 125
+  text: "Kleine Sünden"
   language: de
   type: LeftSentence
-
-s125r:
-  text: macht den Meister.
-  language: de
-  type: RightSentence
+  opponent_id: 126
 
 s126:
-  text: Was sich liebt,
-  language: de
-  type: LeftSentence
-
-s126r:
-  text: das neckt sich.
+  id: 126
+  text: "bestraft der liebe Gott sofort."
   language: de
   type: RightSentence
+  opponent_id: 125
 
 s127:
+  id: 127
+  text: "Kleinvieh"
+  language: de
+  type: LeftSentence
+  opponent_id: 128
+
+s128:
+  id: 128
+  text: "macht auch Mist."
+  language: de
+  type: RightSentence
+  opponent_id: 127
+
+s129:
+  id: 129
+  text: "Knapp daneben"
+  language: de
+  type: LeftSentence
+  opponent_id: 130
+
+s130:
+  id: 130
+  text: "ist auch vorbei."
+  language: de
+  type: RightSentence
+  opponent_id: 129
+
+s131:
+  id: 131
+  text: "Liebe"
+  language: de
+  type: LeftSentence
+  opponent_id: 132
+
+s132:
+  id: 132
+  text: "macht blind."
+  language: de
+  type: RightSentence
+  opponent_id: 131
+
+s133:
+  id: 133
+  text: "Lügen"
+  language: de
+  type: LeftSentence
+  opponent_id: 134
+
+s134:
+  id: 134
+  text: "haben kurze Beine."
+  language: de
+  type: RightSentence
+  opponent_id: 133
+
+s135:
+  id: 135
+  text: "Messer, Gabel, Schere, Licht"
+  language: de
+  type: LeftSentence
+  opponent_id: 136
+
+s136:
+  id: 136
+  text: "sind für kleine Kinder nicht."
+  language: de
+  type: RightSentence
+  opponent_id: 135
+
+s137:
+  id: 137
+  text: "Morgenstund"
+  language: de
+  type: LeftSentence
+  opponent_id: 138
+
+s138:
+  id: 138
+  text: "hat Gold im Mund."
+  language: de
+  type: RightSentence
+  opponent_id: 137
+
+s139:
+  id: 139
+  text: "Müßiggang"
+  language: de
+  type: LeftSentence
+  opponent_id: 140
+
+s140:
+  id: 140
+  text: "ist aller Laster Anfang."
+  language: de
+  type: RightSentence
+  opponent_id: 139
+
+s141:
+  id: 141
+  text: "Neue Besen"
+  language: de
+  type: LeftSentence
+  opponent_id: 142
+
+s142:
+  id: 142
+  text: "kehren gut."
+  language: de
+  type: RightSentence
+  opponent_id: 141
+
+s143:
+  id: 143
+  text: "Neun Leben"
+  language: de
+  type: LeftSentence
+  opponent_id: 144
+
+s144:
+  id: 144
+  text: "hat die Katze."
+  language: de
+  type: RightSentence
+  opponent_id: 143
+
+s145:
+  id: 145
+  text: "Not"
+  language: de
+  type: LeftSentence
+  opponent_id: 146
+
+s146:
+  id: 146
+  text: "macht erfinderisch."
+  language: de
+  type: RightSentence
+  opponent_id: 145
+
+s147:
+  id: 147
+  text: "Ordnung"
+  language: de
+  type: LeftSentence
+  opponent_id: 148
+
+s148:
+  id: 148
+  text: "ist das halbe Leben."
+  language: de
+  type: RightSentence
+  opponent_id: 147
+
+s149:
+  id: 149
+  text: "Rache"
+  language: de
+  type: LeftSentence
+  opponent_id: 150
+
+s150:
+  id: 150
+  text: "ist süß."
+  language: de
+  type: RightSentence
+  opponent_id: 149
+
+s151:
+  id: 151
+  text: "Schadenfreude"
+  language: de
+  type: LeftSentence
+  opponent_id: 152
+
+s152:
+  id: 152
+  text: "ist die beste Freude."
+  language: de
+  type: RightSentence
+  opponent_id: 151
+
+s153:
+  id: 153
+  text: "Scherben"
+  language: de
+  type: LeftSentence
+  opponent_id: 154
+
+s154:
+  id: 154
+  text: "bringen Glück."
+  language: de
+  type: RightSentence
+  opponent_id: 153
+
+s155:
+  id: 155
+  text: "Schlafende Hunde"
+  language: de
+  type: LeftSentence
+  opponent_id: 156
+
+s156:
+  id: 156
+  text: "soll man nicht wecken."
+  language: de
+  type: RightSentence
+  opponent_id: 155
+
+s157:
+  id: 157
+  text: "Schlafende Hunde"
+  language: de
+  type: LeftSentence
+  opponent_id: 158
+
+s158:
+  id: 158
+  text: "soll man nicht wecken."
+  language: de
+  type: RightSentence
+  opponent_id: 157
+
+s159:
+  id: 159
+  text: "Selbsterkenntnis"
+  language: de
+  type: LeftSentence
+  opponent_id: 160
+
+s160:
+  id: 160
+  text: "ist der erste Weg zur Besserung."
+  language: de
+  type: RightSentence
+  opponent_id: 159
+
+s161:
+  id: 161
+  text: "Steter Tropfen"
+  language: de
+  type: LeftSentence
+  opponent_id: 162
+
+s162:
+  id: 162
+  text: "hölt den Stein."
+  language: de
+  type: RightSentence
+  opponent_id: 161
+
+s163:
+  id: 163
+  text: "Stille Wasser"
+  language: de
+  type: LeftSentence
+  opponent_id: 164
+
+s164:
+  id: 164
+  text: "sind tief."
+  language: de
+  type: RightSentence
+  opponent_id: 163
+
+s165:
+  id: 165
+  text: "Unkraut"
+  language: de
+  type: LeftSentence
+  opponent_id: 166
+
+s166:
+  id: 166
+  text: "vergeht nicht."
+  language: de
+  type: RightSentence
+  opponent_id: 165
+
+s167:
+  id: 167
+  text: "Unter den Blinden"
+  language: de
+  type: LeftSentence
+  opponent_id: 168
+
+s168:
+  id: 168
+  text: "ist der Einäugige König."
+  language: de
+  type: RightSentence
+  opponent_id: 167
+
+s169:
+  id: 169
+  text: "Unverhofft"
+  language: de
+  type: LeftSentence
+  opponent_id: 170
+
+s170:
+  id: 170
+  text: "kommt oft."
+  language: de
+  type: RightSentence
+  opponent_id: 169
+
+s171:
+  id: 171
+  text: "Viel"
+  language: de
+  type: LeftSentence
+  opponent_id: 172
+
+s172:
+  id: 172
+  text: "hilft viel."
+  language: de
+  type: RightSentence
+  opponent_id: 171
+
+s173:
+  id: 173
+  text: "Viele Jäger"
+  language: de
+  type: LeftSentence
+  opponent_id: 174
+
+s174:
+  id: 174
+  text: "sind des Hasen Tod."
+  language: de
+  type: RightSentence
+  opponent_id: 173
+
+s175:
+  id: 175
+  text: "Viele Köche"
+  language: de
+  type: LeftSentence
+  opponent_id: 176
+
+s176:
+  id: 176
+  text: "verderben den Brei."
+  language: de
+  type: RightSentence
+  opponent_id: 175
+
+s177:
+  id: 177
+  text: "Vorfreude"
+  language: de
+  type: LeftSentence
+  opponent_id: 178
+
+s178:
+  id: 178
+  text: "ist die schönste Freude."
+  language: de
+  type: RightSentence
+  opponent_id: 177
+
+s179:
+  id: 179
+  text: "Vorsicht"
+  language: de
+  type: LeftSentence
+  opponent_id: 180
+
+s180:
+  id: 180
+  text: "ist die Mutter der Porzellankiste."
+  language: de
+  type: RightSentence
+  opponent_id: 179
+
+s181:
+  id: 181
+  text: "Was Hänschen nicht lernt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 182
+
+s182:
+  id: 182
+  text: "lernt Hans nimmermehr."
+  language: de
+  type: RightSentence
+  opponent_id: 181
+
+s183:
+  id: 183
+  text: "Was auf dem Boden liegt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 184
+
+s184:
+  id: 184
+  text: "hebt man nicht auf."
+  language: de
+  type: RightSentence
+  opponent_id: 183
+
+s185:
+  id: 185
+  text: "Was auf den Tisch kommt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 186
+
+s186:
+  id: 186
+  text: "wird gegessen."
+  language: de
+  type: RightSentence
+  opponent_id: 185
+
+s187:
+  id: 187
+  text: "Was der Bauer nicht kennt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 188
+
+s188:
+  id: 188
+  text: "frisst er nicht."
+  language: de
+  type: RightSentence
+  opponent_id: 187
+
+s189:
+  id: 189
+  text: "Was dich nicht umbringt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 190
+
+s190:
+  id: 190
+  text: "macht dich stärker."
+  language: de
+  type: RightSentence
+  opponent_id: 189
+
+s191:
+  id: 191
+  text: "Was du heute kannst besorgen,"
+  language: de
+  type: LeftSentence
+  opponent_id: 192
+
+s192:
+  id: 192
+  text: "das verschiebe nicht auf morgen."
+  language: de
+  type: RightSentence
+  opponent_id: 191
+
+s193:
+  id: 193
+  text: "Was du nicht willst, das man dir tut,"
+  language: de
+  type: LeftSentence
+  opponent_id: 194
+
+s194:
+  id: 194
+  text: "das füg' auch keinem Anderen zu."
+  language: de
+  type: RightSentence
+  opponent_id: 193
+
+s195:
+  id: 195
+  text: "Was lange währt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 196
+
+s196:
+  id: 196
+  text: "wird endlich gut."
+  language: de
+  type: RightSentence
+  opponent_id: 195
+
+s197:
+  id: 197
+  text: "Was man nicht im Kopf hat,"
+  language: de
+  type: LeftSentence
+  opponent_id: 198
+
+s198:
+  id: 198
+  text: "muß man in den Beinen haben."
+  language: de
+  type: RightSentence
+  opponent_id: 197
+
+s199:
+  id: 199
+  text: "Was nicht passt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 200
+
+s200:
+  id: 200
+  text: "wird passend gemacht."
+  language: de
+  type: RightSentence
+  opponent_id: 199
+
+s201:
+  id: 201
+  text: "Von nichts"
+  language: de
+  type: LeftSentence
+  opponent_id: 202
+
+s202:
+  id: 202
+  text: "kommt nichts."
+  language: de
+  type: RightSentence
+  opponent_id: 201
+
+s203:
+  id: 203
+  text: "Weniger"
+  language: de
+  type: LeftSentence
+  opponent_id: 204
+
+s204:
+  id: 204
+  text: "ist mehr."
+  language: de
+  type: RightSentence
+  opponent_id: 203
+
+s205:
+  id: 205
+  text: "Wer A sagt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 206
+
+s206:
+  id: 206
+  text: "muss auch B sagen."
+  language: de
+  type: RightSentence
+  opponent_id: 205
+
+s207:
+  id: 207
+  text: "Wer Wind sät,"
+  language: de
+  type: LeftSentence
+  opponent_id: 208
+
+s208:
+  id: 208
+  text: "wird Sturm ernten."
+  language: de
+  type: RightSentence
+  opponent_id: 207
+
+s209:
+  id: 209
+  text: "Wer am Fluss baut,"
+  language: de
+  type: LeftSentence
+  opponent_id: 210
+
+s210:
+  id: 210
+  text: "muss mit nassen Füßen rechnen."
+  language: de
+  type: RightSentence
+  opponent_id: 209
+
+s211:
+  id: 211
+  text: "Wer anderen eine Grube gräbt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 212
+
+s212:
+  id: 212
+  text: "fällt selbst hinein"
+  language: de
+  type: RightSentence
+  opponent_id: 211
+
+s213:
+  id: 213
+  text: "Wer den Pfennig nicht ehrt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 214
+
+s214:
+  id: 214
+  text: "ist des Talers nicht wert."
+  language: de
+  type: RightSentence
+  opponent_id: 213
+
+s215:
+  id: 215
+  text: "Wer den Schaden hat,"
+  language: de
+  type: LeftSentence
+  opponent_id: 216
+
+s216:
+  id: 216
+  text: "braucht für den Spott nicht sorgen."
+  language: de
+  type: RightSentence
+  opponent_id: 215
+
+s217:
+  id: 217
+  text: "Wer die Wahl hat,"
+  language: de
+  type: LeftSentence
+  opponent_id: 218
+
+s218:
+  id: 218
+  text: "hat die Qual."
+  language: de
+  type: RightSentence
+  opponent_id: 217
+
+s219:
+  id: 219
+  text: "Wer einmal lügt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 220
+
+s220:
+  id: 220
+  text: "dem glaubt man nicht, und wenn er auch die Wahrheit spricht."
+  language: de
+  type: RightSentence
+  opponent_id: 219
+
+s221:
+  id: 221
+  text: "Wer gackert,"
+  language: de
+  type: LeftSentence
+  opponent_id: 222
+
+s222:
+  id: 222
+  text: "muss auch legen."
+  language: de
+  type: RightSentence
+  opponent_id: 221
+
+s223:
+  id: 223
+  text: "Wer im Glashaus sitzt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 224
+
+s224:
+  id: 224
+  text: "soll nicht mit Steinen werfen."
+  language: de
+  type: RightSentence
+  opponent_id: 223
+
+s225:
+  id: 225
+  text: "Wer nicht kommt zur rechten Zeit,"
+  language: de
+  type: LeftSentence
+  opponent_id: 226
+
+s226:
+  id: 226
+  text: "der muss seh'n, was übrig bleibt."
+  language: de
+  type: RightSentence
+  opponent_id: 225
+
+s227:
+  id: 227
+  text: "Wer schläft,"
+  language: de
+  type: LeftSentence
+  opponent_id: 228
+
+s228:
+  id: 228
+  text: "sündigt nicht."
+  language: de
+  type: RightSentence
+  opponent_id: 227
+
+s229:
+  id: 229
+  text: "Wer schreit,"
+  language: de
+  type: LeftSentence
+  opponent_id: 230
+
+s230:
+  id: 230
+  text: "hat Unrecht."
+  language: de
+  type: RightSentence
+  opponent_id: 229
+
+s231:
+  id: 231
+  text: "Wer zu spät kommt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 232
+
+s232:
+  id: 232
+  text: "den bestraft das Leben."
+  language: de
+  type: RightSentence
+  opponent_id: 231
+
+s233:
+  id: 233
+  text: "Wer zuerst kommt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 234
+
+s234:
+  id: 234
+  text: "mahlt zuerst."
+  language: de
+  type: RightSentence
+  opponent_id: 233
+
+s235:
+  id: 235
+  text: "Wer zuletzt lacht,"
+  language: de
+  type: LeftSentence
+  opponent_id: 236
+
+s236:
+  id: 236
+  text: "lacht am besten."
+  language: de
+  type: RightSentence
+  opponent_id: 235
+
+s237:
+  id: 237
+  text: "Wie es in den Wald hineinschallt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 238
+
+s238:
+  id: 238
+  text: "so schallt es auch wieder heraus."
+  language: de
+  type: RightSentence
+  opponent_id: 237
+
+s239:
+  id: 239
+  text: "Wie man sich bettet,"
+  language: de
+  type: LeftSentence
+  opponent_id: 240
+
+s240:
+  id: 240
+  text: "so liegt man."
+  language: de
+  type: RightSentence
+  opponent_id: 239
+
+s241:
+  id: 241
+  text: "Wo Rauch ist,"
+  language: de
+  type: LeftSentence
+  opponent_id: 242
+
+s242:
+  id: 242
+  text: "ist auch Feuer."
+  language: de
+  type: RightSentence
+  opponent_id: 241
+
+s243:
+  id: 243
+  text: "Wo ein Wille ist,"
+  language: de
+  type: LeftSentence
+  opponent_id: 244
+
+s244:
+  id: 244
+  text: "ist auch ein Weg."
+  language: de
+  type: RightSentence
+  opponent_id: 243
+
+s245:
+  id: 245
+  text: "Wo gehobelt wird,"
+  language: de
+  type: LeftSentence
+  opponent_id: 246
+
+s246:
+  id: 246
+  text: "fallen Späne"
+  language: de
+  type: RightSentence
+  opponent_id: 245
+
+s247:
+  id: 247
+  text: "Wo kein Kläger ist,"
+  language: de
+  type: LeftSentence
+  opponent_id: 248
+
+s248:
+  id: 248
+  text: "ist auch kein Richter."
+  language: de
+  type: RightSentence
+  opponent_id: 247
+
+s249:
+  id: 249
+  text: "Wo zwei sich streiten,"
+  language: de
+  type: LeftSentence
+  opponent_id: 250
+
+s250:
+  id: 250
+  text: "freut sich der Dritte"
+  language: de
+  type: RightSentence
+  opponent_id: 249
+
+s251:
+  id: 251
+  text: "Übung"
+  language: de
+  type: LeftSentence
+  opponent_id: 252
+
+s252:
+  id: 252
+  text: "macht den Meister."
+  language: de
+  type: RightSentence
+  opponent_id: 251
+
+s253:
+  id: 253
+  text: "Was sich liebt,"
+  language: de
+  type: LeftSentence
+  opponent_id: 254
+
+s254:
+  id: 254
+  text: "das neckt sich."
+  language: de
+  type: RightSentence
+  opponent_id: 253
+
+s255:
+  id: 255
   text: "Wenn du glaubst, es geht nicht mehr,"
   language: de
   type: LeftSentence
+  opponent_id: 256
 
-s127r:
-  text: kommt von irgendwo ein Lichtlein her.
+s256:
+  id: 256
+  text: "kommt von irgendwo ein Lichtlein her."
   language: de
   type: RightSentence
-  
-s128:
-  text: Eigenlob
+  opponent_id: 255
+
+s257:
+  id: 257
+  text: "Eigenlob"
   language: de
   type: LeftSentence
+  opponent_id: 258
 
-s128r:
-  text: stinkt.
+s258:
+  id: 258
+  text: "stinkt."
   language: de
   type: RightSentence
+  opponent_id: 257
 
-s129:
-  text: Einmal
+s259:
+  id: 259
+  text: "Einmal"
   language: de
   type: LeftSentence
+  opponent_id: 260
 
-s129r:
-  text: ist keinmal.
+s260:
+  id: 260
+  text: "ist keinmal."
   language: de
   type: RightSentence
+  opponent_id: 259
+
