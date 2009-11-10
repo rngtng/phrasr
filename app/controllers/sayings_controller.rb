@@ -7,7 +7,7 @@ class SayingsController < ApplicationController
   end
 
   def random
-    @saying = Saying.all.rand
+    @saying = Saying.find_weighted_randomly
     render :action => 'show'
   end
 

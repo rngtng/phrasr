@@ -1,9 +1,11 @@
 one:
-  username: MyString
-  email: MyString
-  password: MyString
+  login: peter
+  email: p@me.de
+  crypted_password: asd
+  password_salt: dfgdf
 
 two:
-  username: MyString
-  email: MyString
-  password: MyString
+  login: eli
+  email: eli@sa.de
+  crypted_password: asdfr
+  password_salt: dfgdf

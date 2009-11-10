@@ -9,7 +9,8 @@
 require 'active_record/fixtures'
 
 Fixtures.create_fixtures("#{Rails.root}/test/fixtures", 'sentences')
-Saying.populate
 
-
-#Fixtures.create_fixtures("#{Rails.root}/test/fixtures", 'sayings')
+query = "INSERT INTO sayings (left_sentence_id,right_sentence_id,language,created_at,updated_at)
+         SELECT l.id, r.id, r.language, NOW(), NOW() FROM sentences l 
+         JOIN sentences r ON l.type = 'LeftSentence' AND r.type = 'RightSentence' AND l.language = r.language"
+Saying.connection.execute(query)

@@ -1,6 +1,6 @@
 class Sentence < ActiveRecord::Base
   has_many :sayings
-  has_one :opponent, :class => 'Sentence'
+  has_one :opponent, :class_name => 'Sentence'
     
   validates_presence_of :text
   validates_presence_of :type

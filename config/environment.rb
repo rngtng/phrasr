@@ -20,13 +20,24 @@ Rails::Initializer.run do |config|
   # config.gem "sqlite3-ruby", :lib => "sqlite3"
   # config.gem "aws-s3", :lib => "aws/s3"
 
+  config.gem 'authlogic'
+  config.gem 'facebooker'
+  
+  config.gem 'oauth'
+  config.gem 'authlogic-oauth', :lib => 'authlogic_oauth'
+  
+  #config.gem 'ruby-openid', :lib => 'openid'
+  #config.gem 'authlogic-oid', :lib => 'authlogic_openid' #rake open_id_authentification:db:create
+  #config.gem 'mocha', :lib => 'openid'  #make suer test stubbing works!!
+  
+
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
   # config.plugins = [ :exception_notification, :ssl_requirement, :all ]
 
   # Skip frameworks you're not going to use. To use Rails without a database,
   # you must remove the Active Record framework.
-  # config.frameworks -= [ :active_record, :active_resource, :action_mailer ]
+  config.frameworks -= [ :active_resource, :action_mailer ]
 
   # Activate observers that should always be running
   # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
@@ -38,15 +49,5 @@ Rails::Initializer.run do |config|
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
-  
-  config.gem 'authlogic'
-  config.gem 'facebooker'
-  
-  config.gem 'oauth'
-  config.gem 'authlogic-oauth', :lib => 'authlogic_oauth'
-  
-  config.gem 'ruby-openid', :lib => 'openid'
-  config.gem 'authlogic-oid', :lib => 'authlogic_openid' #rake open_id_authentification:db:create
-  
   
 end

@@ -9,36 +9,54 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091101205119) do
+ActiveRecord::Schema.define(:version => 20091108182932) do
 
   create_table "sayings", :force => true do |t|
     t.integer  "left_sentence_id"
     t.integer  "right_sentence_id"
-    t.string   "language",              :default => "de"
-    t.integer  "view_count",            :default => 0
-    t.boolean  "original",              :default => false
-    t.integer  "awesome_votes_count",   :default => 0
-    t.integer  "awefull_votes_count",   :default => 0
-    t.integer  "senseless_votes_count", :default => 0
-    t.integer  "spam_votes_count",      :default => 0
-    t.integer  "favorite_votes_count",  :default => 0
+    t.string   "language",             :default => "de"
+    t.integer  "views_count",          :default => 0
+    t.integer  "star_votes_count",     :default => 0
+    t.integer  "spam_votes_count",     :default => 0
+    t.integer  "favorite_votes_count", :default => 0
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "sayings", ["left_sentence_id", "right_sentence_id"], :name => "index_sayings_on_left_sentence_id_and_right_sentence_id"
+  add_index "sayings", ["left_sentence_id", "right_sentence_id", "language"], :name => "left_right_lng"
 
   create_table "sentences", :force => true do |t|
     t.string   "text"
     t.string   "type"
-    t.string   "language"
+    t.string   "language",    :default => "de"
+    t.integer  "opponent_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
+  add_index "sentences", ["id", "type", "language"], :name => "index_sentences_on_id_and_type_and_language"
+
+  create_table "users", :force => true do |t|
+    t.string   "login"
+    t.string   "email"
+    t.string   "crypted_password"
+    t.string   "password_salt"
+    t.string   "persistence_token"
+    t.string   "openid_identifier"
+    t.string   "oauth_token"
+    t.string   "oauth_secret"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "users", ["login", "password_salt", "crypted_password"], :name => "index_users_on_login_and_password_salt_and_crypted_password"
+  add_index "users", ["oauth_token"], :name => "index_users_on_oauth_token"
+  add_index "users", ["openid_identifier"], :name => "index_users_on_openid_identifier"
+
   create_table "votes", :force => true do |t|
     t.integer  "user_id"
     t.integer  "saying_id"
+    t.integer  "stars"
     t.string   "type"
     t.datetime "created_at"
     t.datetime "updated_at"

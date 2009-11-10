@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
   acts_as_authentic do |c|
-    c.openid_required_fields = [:nickname, :email]
+    #c.openid_required_fields = [:nickname, :email]
   end
   
   attr_accessible :login, :email, :password

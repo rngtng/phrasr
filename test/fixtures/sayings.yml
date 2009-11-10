@@ -1,12 +1,11 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 first:
-  left_sentence: s0
-  right_sentence: s0r
+  left_sentence: s1
+  right_sentence: s2
   language: de
-  original: 1
 
 second:
-  left_sentence_id: s0
-  right_sentence_id: s1r
+  left_sentence_id: s1
+  right_sentence_id: s4
   language: de
