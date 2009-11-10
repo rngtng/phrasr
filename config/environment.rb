@@ -40,5 +40,8 @@ Rails::Initializer.run do |config|
   # config.i18n.default_locale = :de
   
   config.gem 'authlogic'
-  #config.gem 'facebooker'
+  config.gem 'facebooker'
+  config.gem 'oauth'
+  config.gem 'authlogic-oauth', :lib => 'authlogic_oauth'
+  
 end
