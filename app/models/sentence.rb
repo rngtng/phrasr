@@ -4,9 +4,10 @@ class Sentence < ActiveRecord::Base
   validates_presence_of :text
   validates_presence_of :type
   validates_presence_of :language
-  
+
   validates_uniqueness_of :text, :scope => :type
-  
+
+  scope :random, :order => "RAND()", :limit => 1
 end
 
 class LeftSentence < Sentence
