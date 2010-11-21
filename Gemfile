@@ -7,6 +7,9 @@ gem 'rails', '3.0.3'
 
 gem 'mysql2'
 
+gem "haml"
+gem "compass", ">= 0.10.6"
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
