@@ -1,17 +1,11 @@
 set :application, "phrasr"
 
 set :use_sudo, false
+set :rvm_type, :user
 
-#it's rails 3 baby, so make sure rvm setup is used!
-rvm_path = '/kunden/warteschlange.de/.rvm'
-rubies   = "ruby-1.9.2-rc2"
-set :default_environment, { 
-  'PATH' => "#{rvm_path}/rubies/#{rubies}/bin:#{rvm_path}/gems/#{rubies}/bin:#{rvm_path}/bin:$PATH",
-  'RUBY_VERSION' => rubies,
-  'GEM_HOME'     => "#{rvm_path}/gems/#{rubies}",
-  'GEM_PATH'     => "#{rvm_path}/gems/#{rubies}",
-  'BUNDLE_PATH'  => "#{rvm_path}/gems/#{rubies}"  # If you are using bundler.
-}
+$:.unshift(File.expand_path('./lib', ENV['rvm_path']))
+require "rvm/capistrano"
+set :rvm_ruby_string, 'ruby-1.9.2-rc2'
 
 # If you aren't deploying to /u/apps/#{application} on the target
 # servers (which is the default), you can specify the actual location
@@ -39,14 +33,14 @@ namespace :deploy do
     run "touch #{current_path}/tmp/restart.txt"
   end
 
-  desc "Link in the production database.yml" 
+  desc "Link in the production database.yml"
   task :link_configs do
     run "ln -nfs #{deploy_to}/#{shared_dir}/database.yml #{release_path}/config/database.yml"
     #run "ln -nfs #{deploy_to}/#{shared_dir}/mail.yml #{release_path}/config/mail.yml"
     run "ln -nfs #{deploy_to}/#{shared_dir}/uploads #{release_path}/public/system"
-  end  
-  
-  
+  end
+
+
   [:start, :stop].each do |t|
     desc "#{t} task is a no-op with mod_rails"
     task t, :roles => :app do ; end
@@ -60,16 +54,16 @@ namespace :bundler do
     release_dir = File.join(current_release, '.bundle')
     run("mkdir -p #{shared_dir} && ln -s #{shared_dir} #{release_dir}")
   end
-  
+
   task :bundle_new_release, :roles => :app do
     bundler.create_symlink
     run "cd #{release_path} && bundle install --without test"
   end
-  
+
   task :lock, :roles => :app do
     run "cd #{current_release} && bundle lock;"
   end
-  
+
   task :unlock, :roles => :app do
     run "cd #{current_release} && bundle unlock;"
   end
@@ -82,16 +76,16 @@ end
 # namespace :resque do
 #   resque_pid = File.join(current_release,"tmp/pids/resque_worker.pid")
 #   resque_log = "log/resque_worker.log"
-#   
+#
 #   desc "start all resque workers"
-#   task :start, :roles => :job do    
+#   task :start, :roles => :job do
 #     unless remote_file_exists?(resque_pid)
 #       run "cd #{current_release}; RAILS_ENV=production QUEUE=* VERBOSE=1 nohup rake resque:work &> #{resque_log}& 2> /dev/null && echo $! > #{resque_pid}"
 #     else
 #       puts "PID File exits!!"
 #     end
 #   end
-# 
+#
 #   desc "stop all resque workers"
 #   task :stop, :roles => :job do
 #     if remote_file_exists?(resque_pid)
@@ -104,7 +98,7 @@ end
 #       puts "No PID File found"
 #     end
 #   end
-# 
+#
 #   desc "restart resque workers"
 #   task :restart, :roles => :job do
 #     resque.stop
