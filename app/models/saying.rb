@@ -3,11 +3,11 @@ class Saying < ActiveRecord::Base
   belongs_to :left_sentence, :class_name => "Sentence::LeftSentence", :foreign_key => :left_sentence_id
   belongs_to :right_sentence, :class_name => "Sentence::RightSentence", :foreign_key => :right_sentence_id
   
-  has_many :awesome_votes, :counter_cache => true
-  has_many :awefull_votes, :counter_cache => true
-  has_many :spam_votes, :counter_cache => true
-  has_many :senseless_votes, :counter_cache => true
-  has_many :favorite_votes, :counter_cache => true
+  has_many :awesome_votes
+  has_many :awefull_votes
+  has_many :spam_votes
+  has_many :senseless_votes
+  has_many :favorite_votes
   
   validates_presence_of   :left_sentence_id   #use id here
   validates_presence_of   :right_sentence_id  #use id here

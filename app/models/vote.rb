@@ -1,6 +1,6 @@
 class Vote < ActiveRecord::Base
   
-  belongs_to :saying
+  belongs_to :saying, :counter_cache => true
   belongs_to :user
   
   validates_presence_of :saying
