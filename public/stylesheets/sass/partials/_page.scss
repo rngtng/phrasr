@@ -22,7 +22,7 @@ body.bp {
   text-align:center;
 }
 
-.sentence {
+#sentence {
   margin-top: 200px;
   font-size: 45pt;
   font-style:italic;
@@ -35,4 +35,41 @@ body.bp {
     margin-left:100px;
   }
 
+}
+
+.boxgrid {
+  width: 100%;
+  height: 600px;
+  margin:0px;
+  float:left;
+  background:#DDD;
+  border: 0;
+  //overflow: hidden;
+  position: relative;
+}
+
+.boxcaption {
+  float: left;
+  position: relative;
+  background: #666;
+  top: 430px;
+  height: 150px;
+  width: 100%;
+  opacity: .8;
+  /* For IE 5-7 */
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  /* For IE 8 */
+  -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+
+  #fav img {
+    margin-top: 5px;
+    margin-left: 100px;
+    float: left;
+  }
+  
+  #next img {
+    margin-right: 100px;
+    margin-top: 30px;
+    float: right;
+  }
 }

@@ -3,7 +3,7 @@ Phrasr::Application.routes.draw do
   # first created -> highest priority.
 
   match '' => 'sayings#index', :as => :home
-  resource :sayings
+  resources :sayings
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'

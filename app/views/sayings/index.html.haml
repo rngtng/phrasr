@@ -1,7 +1,13 @@
 
-.sentence
-  .left
-    = @left_sentence.text
-  .right
-    = @right_sentence.text
+#saying.boxgrid.captionfull
+
+  #sentence
+    .left
+      = @left_sentence.text
+    .right
+      = @right_sentence.text
+
+  #panel.cover.boxcaption
+    = link_to image_tag('star_of.png'), sayings_path, :id => 'fav'
+    = link_to image_tag('right.png'), sayings_path, :id => 'next'
 
