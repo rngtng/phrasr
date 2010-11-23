@@ -4,6 +4,7 @@ Phrasr::Application.routes.draw do
 
   match '' => 'sayings#index', :as => :home
   resources :sayings
+  resources :sentences
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'

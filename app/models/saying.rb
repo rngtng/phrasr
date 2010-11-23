@@ -1,7 +1,8 @@
 class Saying < ActiveRecord::Base
+  Sentence
   
-  belongs_to :left_sentence, :class_name => "Sentence::LeftSentence", :foreign_key => :left_sentence_id
-  belongs_to :right_sentence, :class_name => "Sentence::RightSentence", :foreign_key => :right_sentence_id
+  belongs_to :left_sentence, :class_name => "LeftSentence", :foreign_key => :left_sentence_id
+  belongs_to :right_sentence, :class_name => "RightSentence", :foreign_key => :right_sentence_id
   
   has_many :awesome_votes
   has_many :awefull_votes
