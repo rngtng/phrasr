@@ -10,6 +10,8 @@ gem 'mysql2'
 gem "haml"
 gem "compass", ">= 0.10.6"
 
+gem 'oauth'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
