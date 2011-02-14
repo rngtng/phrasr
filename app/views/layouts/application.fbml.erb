@@ -1,0 +1,19 @@
+<fb:fbml> 
+  <%= stylesheet_link_tag "application"%> 
+  <% fb_title "Phrasr" %> 
+  
+  <% fb_dashboard do %> 
+    
+  <% end %> 
+  
+   <fb:tabs> 
+    <%#= fb_tab_item "Phraser",             home_path,      :selected => ( params[:action] == 'index') %> 
+    <%#= fb_tab_item "Favorites",           favorites_path, :selected => ( params[:action] == 'favorites') %> 
+    <%#= fb_tab_item "Top 100",             top_path,       :selected => ( params[:action] == 'top') %>
+    <%= fb_tab_item "Help &amp; Feedback", about_path,     :align =>"right" %> 
+  </fb:tabs>
+  
+  <%= facebook_messages %>
+  
+  <%= yield  %>
+</fb:fbml> 

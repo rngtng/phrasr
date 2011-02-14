@@ -1,0 +1,36 @@
+# The api key, secret key, and canvas page name are required to get started
+# Tunnel configuration is only needed if you are going to use the facebooker:tunnel Rake tasks
+# Your callback url in Facebook should be set to http://public_host:public_port
+
+development:
+  api_key: 4bf24e9bfec2bcbfe8859520566af9fb
+  secret_key: f7970f05c22e21e1a8dd1aa31015c826
+  canvas_page_name: phraser
+  callback_url: http://www.warteschlange.de:3000/
+  tunnel:
+    public_host_username: foo
+    public_host: cashr.heroku.com
+    public_port: 80
+    local_port: 3000
+
+test:
+  api_key: 4bf24e9bfec2bcbfe8859520566af9fb
+  secret_key: f7970f05c22e21e1a8dd1aa31015c826
+  canvas_page_name: phraser
+  callback_url: http://www.warteschlange.de:3000/
+  tunnel:
+    public_host_username: foo
+    public_host: cashr.heroku.com
+    public_port: 80
+    local_port: 3000
+
+production:
+  api_key: 4bf24e9bfec2bcbfe8859520566af9fb
+  secret_key: f7970f05c22e21e1a8dd1aa31015c826
+  canvas_page_name: phraser
+  callback_url: http://www.warteschlange.de:3000/
+  tunnel:
+    public_host_username: foo
+    public_host: cashr.heroku.com
+    public_port: 80
+    local_port: 3000

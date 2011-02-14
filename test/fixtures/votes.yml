@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  fb_user_id: 1
+  saying_id: 1
+  favorite: false
+
+two:
+  fb_user_id: 1
+  saying_id: 1
+  favorite: false

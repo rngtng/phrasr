@@ -1,0 +1,23 @@
+development:
+  database: cashr
+  adapter: mysql
+  encoding: utf8
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+    
+test:
+  database: test_cashr
+  adapter: mysql
+  encoding: utf8
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+  
+production:
+  adapter: mysql
+  database: db21560_17
+  username: db21560_17
+  password: 123456
+  host: mysql5.warteschlange.de
+  encoding: utf8 

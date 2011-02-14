@@ -1,0 +1,27 @@
+
+<div style="width:100%; text-align: center; padding: 30px;">
+  <div>
+    <div style="float: left; margin: 15px;">
+     <%= fb_name @friend %> says:<br>
+      <span class="sentence" style="margin-right:20px;">"<%= @saying.left_sentence.text %></span><br>
+      <span class="sentence" style="margin-left:20px;"><%=   @saying.right_sentence.text %>"</span>  
+    </div>
+    <fb:share-button class="meta">
+     <meta name="medium" content="news" />
+     <meta name="title" content="See what I say" />
+     <meta name="description" content="<%= @saying.left_sentence.text %> <%= @saying.right_sentence.text %>" />  
+    </fb:share-button>
+    <%= fb_profile_pic(@friend, :size => :small) %>
+  </div>    
+</div>
+
+<% facebook_form_for :saying, @saying, :url => vote_saying_path( @saying ) do |f| %>
+  <%= f.buttons "Funny", "Boring" %>
+<% end %>
+
+<br><br>
+<%= fb_comments( "comments_for_saying#{@saying.id}", true, false, 20,
+    :showform => true, 
+    :title => "Comments", 
+    :returnurl => saying_url( @saying )
+    ) %>

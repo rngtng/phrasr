@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+first:
+  left_sentence_id: 1
+  right_sentence_id: 2
+  language: de
+  views: 1
+  good: 1
+  bad: 1
+  senseless: 1
+  spam: 1
+
+second:
+  left_sentence_id: 1
+  right_sentence_id: 3
+  language: de
+  views: 1
+  good: 1
+  bad: 1
+  senseless: 1
+  spam: 1
